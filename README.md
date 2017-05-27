@@ -47,6 +47,19 @@ npm install --save pre-rating
 
 ```
 
+--- Functions return event ----
+
+```js
+__handleMouseOver(e) {
+    console.log(e.target.value, e.target.parsedValue);
+}
+
+__handleChange(e) {
+    console.log(e.target.value, e.target.parsedValue);
+};
+
+```
+
 ## Rating Props
 
 | Name | Type | Default | Required | Description |
